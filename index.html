@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Ejemplo de HTML5">
+  <meta name="keywords" content="HTML5, CSS3, JavaScript">
+  <meta http‐equiv="refresh" content="20;URL=./2PantillaBasica.htm" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divisones Sem&aacute;ticas</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" >
+  <link rel="stylesheet" type="text/css" href="css/estiloBasico.css">
+</head>
+<body>
+  <div id="agrupar">
+
+  <header id="cabecera">
+      <h1>Pr&aacute;ctica 8</h1>
+  </header>
+
+  <nav id="menu">
+    <ul>
+    <li><a href="https://jluis0103.github.io/PracticasUnidad1/">Pr&aacute;ctica 1</a></li>
+    <li><a href="https://jluis0103.github.io/LineaDeTiempo/">Pr&aacute;ctica 2</a></li>
+    <li><a href="https://jluis0103.github.io/Practica3/">Pr&aacute;ctica 3</a></li>
+    <li><a href="https://jluis0103.github.io/Practica4/">Pr&aacute;ctica 4</a></li>
+    <li><a href="https://jluis0103.github.io/Practica5/">Pr&aacute;ctica 5</a></li>
+    <li><a href="https://jluis0103.github.io/Practica6/">Pr&aacute;ctica 6</a></li>
+    <li><a href="https://jluis0103.github.io/Practica-7/">Pr&aacute;ctica 7</a></li>
+    </ul>
+  </nav>
+
+  <section id="seccion">
+      <article><!--Primer articulo-->
+        <header>
+              <hgroup>
+                  <h1>Mi CV</h1>
+                  <h4>Jose Luis Ramirez Alfonso</h4>
+              </hgroup>
+              <time datetime="2023-12-23" pubdate>
+                    publicado 23-02-2023
+              </time>
+        </header>
+        <p>
+          <div style="text-align: center;">
+            <video src="media/mivideo.mp4" controls height="352" width="600"></video>
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1676945271680!6m8!1m7!1swyUa5bqZsg3dAf8s5DwcNQ!2m2!1d18.88897833382955!2d-96.95741544391088!3f132.36842457697895!4f-19.12807536594606!5f0.4000000000000002" width="600" height="352" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <br>
+        <div>
+            <fieldset>
+                <h3>Mis Datos</h3><br>
+                <h2>Datos Personales</h2><br>
+                <ul>
+                    <li>Nombre completo: <label style="font-weight: bold;">Jose Luis Ramirez Alfonso</label></li>
+                    <li>Fecha de Nacimiento: <label style="font-weight: bold;">03/01/2002</label></li>
+                    <li>Lugar de Nacimiento: <label style="font-weight: bold;">C&oacute;rdoba, Ver.</label></li>
+                </ul><br>
+                <h2>Formaci&oacute;n Acad&eacute;mica</h2><br>
+                <ul>
+                    <li>2009 - 2014: <label style="font-weight: bold;">C&eacute;ntro Escolar M&eacute;xico</label></li>
+                    <li>2015 - 2017: <label style="font-weight: bold;">E.S.B.A.O.</label></li>
+                    <li>2017 - 2020: <label style="font-weight: bold;">E.S.B.A.O.</label></li>
+                </ul><br>
+                <h2>Experiencia Laboral</h2><br>
+                <ul>
+                    <li>2020: <label style="font-weight: bold;">Capturista</label></li>
+                    <li>2021: <label style="font-weight: bold;">Administrador de Base de Datos</label></li>
+                    <li>2022: <label style="font-weight: bold;">Programador Web</label></li>
+                </ul>
+              </fieldset>
+        </div>
+        </p>
+        <br>
+        <footer>
+          <p>comentarios (0)</p>
+        </footer>
+      </article><!-- Fin Primer articulo-->
+
+      <article><!-- Segundo articulo-->
+          <header>
+            <hgroup>
+                <h1>Mis Materias Favoritas</h1>
+                <h4>Jose Luis Ramirez Alfonso</h4>
+            </hgroup>
+            <time datetime="2023-02-23" pubdate>
+                publicado 23-02-2023
+            </time>
+          </header>  
+            <br>
+         <p>
+          <div id="menuMaterias">
+              <ol type="a">
+                <li id="basesDeDatos">Bases de Datos</li>
+                <li id="ingenieriaDeSoftware">Ingenier&iacute;a de Software</li>
+                <li id="programacionWeb">Programaci&oacute;n Web</li>
+                <li id="ingles">Ingl&eacute;s</li>
+                <li id="probabilidadYEstadistica">Probabilidad y Estad&iacute;stica</li>
+              </ol>
+          </div>
+         </p>
+         <footer>
+            <p>comentarios (0)</p>
+          </footer>
+    </article> <!-- Fin Segundo articulo-->
+
+</section> <!--Fin de section seccion-->
+
+  <aside id="columna"> <!-- aside -->
+      <blockquote>Facebook</blockquote>
+      <a href="https://www.facebook.com/jose.luis0103/">
+       <figure>
+         <img src="img/facebook.png" alt="facebook" >
+       </figure>
+     </a>
+
+     <blockquote>Instagram</blockquote>
+     <a href="https://www.instagram.com/im.wicho/">
+        <figure>
+          <img src="img/instagram.png" alt="instagram">
+        </figure>
+      </a>
+
+      <blockquote>Linkedin</blockquote>
+     <a href="https://mx.linkedin.com/">
+        <figure>
+          <img src="img/linkedin.png" alt="instagram">
+        </figure>
+      </a>
+  </aside> <!-- Fin aside -->
+
+  <footer id="pie">
+      Derechos Reservados &copy; 2010-2011
+      <address>
+          <a href="http://www.itorizaba.edu.mx">ITO</a>
+      </address>
+  </footer>
+
+</div> <!--fin div agrupar-->
+
+</body>
+</html>
